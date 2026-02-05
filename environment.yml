@@ -1,0 +1,12 @@
+name: scheduler
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - streamlit
